@@ -13,9 +13,13 @@ export default function Thesis() {
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
           className="mb-16"
         >
-          <p className="text-xs tracking-[4px] uppercase text-gold mb-6">
-            THE INTERSECTION
-          </p>
+          <div className="flex items-center gap-4 mb-6">
+            <div className="h-[1px] w-8 bg-gradient-to-r from-transparent to-gold/60" />
+            <p className="text-[10px] tracking-[5px] uppercase text-gold flex-shrink-0">
+              THE INTERSECTION
+            </p>
+            <div className="h-[1px] flex-1 bg-gradient-to-r from-gold/60 to-transparent" />
+          </div>
           <p className="font-[family-name:var(--font-instrument-serif)] text-2xl md:text-3xl text-text-primary leading-relaxed max-w-3xl">
             Most Construction PMs see a building.
             I see a revenue platform where every bay is a $6,600/month

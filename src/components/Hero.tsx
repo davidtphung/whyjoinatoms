@@ -1,34 +1,49 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 export default function Hero() {
   return (
     <section className="relative h-screen w-full overflow-hidden flex items-center justify-center">
-      <Image
-        src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=80"
-        alt="Construction scaffolding at night"
-        fill
-        priority
-        className="object-cover"
-      />
-      <div className="absolute inset-0 bg-gradient-to-b from-[rgba(5,5,5,0.3)] via-[rgba(5,5,5,0.6)] to-[rgba(5,5,5,0.95)]" />
+      {/* Video background with Grok poster as fallback */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+        poster="/poster-data-overlay.png"
+      >
+        <source src="/hero-video.mp4" type="video/mp4" />
+      </video>
+
+      {/* Cinematic gradient — darker at edges, luminous at center-bottom */}
+      <div className="absolute inset-0 bg-gradient-to-b from-[rgba(5,5,5,0.55)] via-[rgba(5,5,5,0.35)] to-[rgba(5,5,5,0.97)]" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[rgba(5,5,5,0.4)] via-transparent to-[rgba(5,5,5,0.4)]" />
+
+      {/* Art deco corner accents */}
+      <div className="absolute top-8 left-8 w-14 h-14 border-t border-l border-gold/35 pointer-events-none" />
+      <div className="absolute top-8 right-8 w-14 h-14 border-t border-r border-gold/35 pointer-events-none" />
+      <div className="absolute bottom-16 left-8 w-14 h-14 border-b border-l border-gold/35 pointer-events-none" />
+      <div className="absolute bottom-16 right-8 w-14 h-14 border-b border-r border-gold/35 pointer-events-none" />
+
+      {/* Top edge film strip accent */}
+      <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-gold/30 to-transparent pointer-events-none" />
 
       <div className="relative z-10 text-center px-6 max-w-4xl">
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-xs tracking-[6px] uppercase text-gold mb-10"
+          className="text-[10px] tracking-[8px] uppercase text-gold mb-10"
         >
-          ATOMS / CLOUDKITCHENS
+          ATOMS &nbsp;/&nbsp; CLOUDKITCHENS
         </motion.p>
 
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
+          transition={{ duration: 0.9, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
           className="font-[family-name:var(--font-instrument-serif)] text-4xl md:text-6xl lg:text-7xl text-text-primary font-normal mb-4 leading-tight"
         >
           I Think in Blueprints.
@@ -37,18 +52,25 @@ export default function Hero() {
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
+          transition={{ duration: 0.9, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
           className="font-[family-name:var(--font-instrument-serif)] text-4xl md:text-6xl lg:text-7xl text-text-primary font-normal mb-10 leading-tight"
         >
           I Decide in Data.
         </motion.h1>
 
+        {/* Art deco ornament divider */}
         <motion.div
-          initial={{ scaleX: 0 }}
-          animate={{ scaleX: 1 }}
-          transition={{ duration: 0.6, delay: 1.2 }}
-          className="w-20 h-[2px] bg-gold mx-auto mb-10"
-        />
+          initial={{ opacity: 0, scaleX: 0 }}
+          animate={{ opacity: 1, scaleX: 1 }}
+          transition={{ duration: 0.8, delay: 1.2 }}
+          className="flex items-center justify-center gap-3 mb-10"
+        >
+          <div className="h-[1px] w-14 bg-gradient-to-r from-transparent to-gold/70" />
+          <div className="w-1.5 h-1.5 bg-gold rotate-45 flex-shrink-0" />
+          <div className="h-[1px] w-5 bg-gold/70" />
+          <div className="w-1.5 h-1.5 bg-gold rotate-45 flex-shrink-0" />
+          <div className="h-[1px] w-14 bg-gradient-to-l from-transparent to-gold/70" />
+        </motion.div>
 
         <motion.p
           initial={{ opacity: 0 }}
@@ -64,9 +86,9 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 1.6 }}
-          className="text-sm text-text-dim/60"
+          className="text-xs tracking-[3px] uppercase text-text-dim/60"
         >
-          David T Phung &middot; Construction PM
+          David T Phung &nbsp;&middot;&nbsp; Construction PM
         </motion.p>
       </div>
 
@@ -77,11 +99,11 @@ export default function Hero() {
         className="absolute bottom-10 left-1/2 -translate-x-1/2"
       >
         <svg
-          className="w-6 h-6 text-text-dim/40 animate-bounce-subtle"
+          className="w-5 h-5 text-gold/40 animate-bounce-subtle"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
-          strokeWidth={1.5}
+          strokeWidth={1}
         >
           <path
             strokeLinecap="round"

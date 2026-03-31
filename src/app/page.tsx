@@ -3,6 +3,7 @@ import Thesis from "@/components/Thesis";
 import BiasForAction from "@/components/BiasForAction";
 import WhatIBuilt from "@/components/WhatIBuilt";
 import TheNumbers from "@/components/TheNumbers";
+import CinematicPoster from "@/components/CinematicPoster";
 import KitchenBuilt from "@/components/KitchenBuilt";
 import Timeline from "@/components/Timeline";
 import TheFit from "@/components/TheFit";
@@ -17,6 +18,7 @@ export default function Home() {
       <BiasForAction />
       <WhatIBuilt />
       <TheNumbers />
+      <CinematicPoster />
       <KitchenBuilt />
       <Timeline />
       <TheFit />

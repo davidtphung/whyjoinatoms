@@ -51,17 +51,27 @@ const metrics = [
 
 export default function TheNumbers() {
   return (
-    <section className="py-[120px] md:py-[160px] px-6 bg-bg-surface">
-      <div className="max-w-[1200px] mx-auto">
-        <motion.h2
+    <section className="relative py-[120px] md:py-[160px] px-6 overflow-hidden">
+      {/* American Dynamism poster — very dark overlay so it reads as data backdrop */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/poster-american-dynamism.png')" }}
+      />
+      <div className="absolute inset-0 bg-[rgba(5,5,5,0.88)]" />
+
+      <div className="relative z-10 max-w-[1200px] mx-auto">
+        <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-          className="font-[family-name:var(--font-instrument-serif)] text-3xl md:text-4xl text-text-primary mb-16"
+          className="mb-16"
         >
-          The Numbers
-        </motion.h2>
+          <p className="text-[10px] tracking-[6px] uppercase text-gold mb-4">THE RECORD</p>
+          <h2 className="font-[family-name:var(--font-instrument-serif)] text-3xl md:text-4xl text-text-primary">
+            The Numbers
+          </h2>
+        </motion.div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
           {metrics.map((m, i) => (
@@ -75,16 +85,16 @@ export default function TheNumbers() {
                 delay: i * 0.08,
                 ease: [0.16, 1, 0.3, 1],
               }}
-              className="py-8 border-b-2 border-border-accent"
+              className="py-8 border-b border-gold/25 group"
             >
-              <p className="text-4xl md:text-5xl text-text-primary font-light mb-3">
+              <p className="text-4xl md:text-5xl text-text-primary font-light mb-3 group-hover:text-gold transition-colors duration-500">
                 <AnimatedCounter
                   target={m.target}
                   prefix={m.prefix}
                   suffix={m.suffix}
                 />
               </p>
-              <p className="text-sm text-text-dim">{m.label}</p>
+              <p className="text-xs tracking-[2px] uppercase text-text-dim">{m.label}</p>
             </motion.div>
           ))}
         </div>
