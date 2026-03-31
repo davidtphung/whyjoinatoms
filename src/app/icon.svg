@@ -1,4 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="4" fill="#050505"/>
-  <text x="16" y="22" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="400" fill="#C8A96E">A</text>
+  <!-- Black background -->
+  <rect width="32" height="32" rx="3" fill="#050505"/>
+  <!-- Vertical beam — Physical Dynamism motif -->
+  <rect x="15.2" y="3" width="1.6" height="23" fill="#C8A96E" opacity="0.95"/>
+  <!-- Glow at top of beam -->
+  <ellipse cx="16" cy="5" rx="2.5" ry="1.8" fill="#E8D5A8" opacity="0.35"/>
+  <!-- Horizontal base / city line -->
+  <rect x="5" y="26" width="22" height="0.8" fill="#C8A96E" opacity="0.55"/>
+  <!-- Circuit tick marks on beam -->
+  <rect x="11.5" y="9" width="3.5" height="0.7" fill="#C8A96E" opacity="0.45"/>
+  <rect x="11.5" y="14" width="3.5" height="0.7" fill="#C8A96E" opacity="0.45"/>
+  <rect x="17" y="11" width="3.5" height="0.7" fill="#C8A96E" opacity="0.45"/>
+  <rect x="17" y="17" width="3.5" height="0.7" fill="#C8A96E" opacity="0.45"/>
 </svg>

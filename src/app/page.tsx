@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import Thesis from "@/components/Thesis";
 import BiasForAction from "@/components/BiasForAction";
+import PhysicalDynamism from "@/components/PhysicalDynamism";
 import WhatIBuilt from "@/components/WhatIBuilt";
 import TheNumbers from "@/components/TheNumbers";
 import CinematicPoster from "@/components/CinematicPoster";
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero />
       <Thesis />
       <BiasForAction />
+      <PhysicalDynamism />
       <WhatIBuilt />
       <TheNumbers />
       <CinematicPoster />
