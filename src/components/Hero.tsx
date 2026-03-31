@@ -5,17 +5,11 @@ import { motion } from "framer-motion";
 export default function Hero() {
   return (
     <section className="relative h-screen w-full overflow-hidden flex items-center justify-center">
-      {/* Video background with Grok poster as fallback */}
-      <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        className="absolute inset-0 w-full h-full object-cover"
-        poster="/poster-data-overlay.png"
-      >
-        <source src="/hero-video.mp4" type="video/mp4" />
-      </video>
+      {/* Cinematic poster background - Grok holographic data overlay */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/poster-data-overlay.png')" }}
+      />
 
       {/* Cinematic gradient - darker at edges, luminous at center-bottom */}
       <div className="absolute inset-0 bg-gradient-to-b from-[rgba(5,5,5,0.55)] via-[rgba(5,5,5,0.35)] to-[rgba(5,5,5,0.97)]" />
