@@ -17,6 +17,7 @@ function AnimatedCounter({
   const ref = useRef<HTMLSpanElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
   const [count, setCount] = useState(0);
+  const isDecimal = target % 1 !== 0;
 
   useEffect(() => {
     if (!isInView) return;
@@ -25,16 +26,17 @@ function AnimatedCounter({
       const elapsed = now - startTime;
       const progress = Math.min(elapsed / duration, 1);
       const eased = 1 - Math.pow(1 - progress, 3);
-      setCount(Math.round(eased * target));
+      const raw = eased * target;
+      setCount(isDecimal ? Math.round(raw * 10) / 10 : Math.round(raw));
       if (progress < 1) requestAnimationFrame(animate);
     }
     requestAnimationFrame(animate);
-  }, [isInView, target, duration]);
+  }, [isInView, target, duration, isDecimal]);
 
   return (
     <span ref={ref} className="font-[family-name:var(--font-geist-mono)]">
       {prefix}
-      {count.toLocaleString()}
+      {isDecimal ? count.toFixed(1) : count.toLocaleString()}
       {suffix}
     </span>
   );

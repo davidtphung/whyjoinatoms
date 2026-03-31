@@ -38,6 +38,21 @@ export default function BiasForAction() {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
+          className="mb-16"
+        >
+          <p className="text-[10px] tracking-[5px] uppercase text-gold mb-4">
+            THE PATTERN
+          </p>
+          <h2 className="font-[family-name:var(--font-instrument-serif)] text-3xl md:text-4xl text-text-primary">
+            Bias for Action
+          </h2>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
           transition={{
             duration: 0.7,
             delay: 0.1,
