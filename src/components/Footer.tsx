@@ -6,7 +6,15 @@ export default function Footer() {
           &copy; 2026 David T Phung &middot; NLT143
         </p>
         <p className="text-xs text-text-dim">
-          whyjoinatoms.davidtphung.com
+          Built by{" "}
+          <a
+            href="https://x.com/davidtphung"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-text-secondary hover:text-text-primary transition-colors"
+          >
+            David T Phung
+          </a>
         </p>
       </div>
     </footer>

@@ -38,13 +38,6 @@ export default function KitchenBuilt() {
           <p className="font-[family-name:var(--font-instrument-serif)] text-xl md:text-2xl text-text-secondary font-normal">
             Then I Ran the Operation Inside It
           </p>
-          <p className="mt-6 font-[family-name:var(--font-instrument-serif)] text-lg text-gold italic">
-            &ldquo;That&apos;s huge. That gives you an edge. To say the
-            least.&rdquo;
-          </p>
-          <p className="mt-2 text-sm text-text-dim">
-            - Grant, Engineering Lead
-          </p>
         </motion.div>
 
         <div className="grid gap-0">

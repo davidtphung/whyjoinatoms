@@ -13,7 +13,9 @@ export default function ForTheTeam() {
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
           className="font-[family-name:var(--font-instrument-serif)] text-3xl md:text-4xl text-text-primary leading-snug mb-8"
         >
-          I didn&apos;t wait to be hired to start solving the problem.
+          The blueprint and the balance sheet
+          aren&apos;t two conversations.
+          They&apos;re one.
         </motion.p>
 
         <motion.p
@@ -27,8 +29,8 @@ export default function ForTheTeam() {
           }}
           className="text-lg text-text-secondary mb-6"
         >
-          The prototype is live. The analysis is done. The metric framework
-          exists.
+          I built the platform. I ran the analysis. I created the metric.
+          I didn&apos;t wait to be hired to start solving the problem.
         </motion.p>
 
         <motion.p
@@ -42,8 +44,8 @@ export default function ForTheTeam() {
           }}
           className="text-base text-text-dim mb-12"
         >
-          Every construction decision at CK is a revenue decision. The PM who
-          understands that builds differently.
+          Every construction decision at CK is a revenue decision.
+          You need a PM who sees both.
         </motion.p>
 
         <motion.div
