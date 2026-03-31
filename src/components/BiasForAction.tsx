@@ -46,7 +46,7 @@ export default function BiasForAction() {
             just start doing things. They don&apos;t wait for permission.&rdquo;
           </p>
           <footer className="mt-4 text-sm text-text-dim">
-            &mdash; Tony Xu, CEO of DoorDash
+            - Tony Xu, CEO of DoorDash
           </footer>
         </motion.blockquote>
 
@@ -119,7 +119,7 @@ export default function BiasForAction() {
             &ldquo;High agency is THE thing. Captains of their own ships.&rdquo;
           </p>
           <footer className="mt-3 text-sm text-text-dim">
-            &mdash; Grant, Engineering Lead
+            - Grant, Engineering Lead
           </footer>
           <p className="mt-6 text-text-secondary text-base">
             The best way to show how I&apos;d operate is to just start

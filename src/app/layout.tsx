@@ -22,11 +22,11 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "I Didn't Wait — David T Phung for ATOMS Construction PM",
+  title: "I Didn't Wait - David T Phung for ATOMS Construction PM",
   description:
     "Built a kitchen. Built a platform. Found 25 cities. Created the metric. Ready to build for ATOMS.",
   openGraph: {
-    title: "I Didn't Wait — David T Phung for ATOMS Construction PM",
+    title: "I Didn't Wait - David T Phung for ATOMS Construction PM",
     description:
       "Built a kitchen. Built a platform. Found 25 cities. Created the metric. Ready to build for ATOMS.",
     url: "https://whyjoinatoms.davidtphung.com",

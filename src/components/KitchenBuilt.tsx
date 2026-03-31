@@ -8,9 +8,9 @@ const gridItems = [
   { built: "Grease interceptors", ck: "Grease trap per bay" },
   { built: "Walk-in cooler/freezer", ck: "Walk-in per facility" },
   { built: "Makeup air balancing", ck: "MAU matched to CFM" },
-  { built: "Heavy-power electrical", ck: "200A panels \u00D7 30 bays" },
+  { built: "Heavy-power electrical", ck: "200A panels x 30 bays" },
   { built: "Equipment procurement", ck: "Owner-furnished turnover" },
-  { built: "Operations handoff", ck: "Tenant onboarding (4\u20138 wk)" },
+  { built: "Operations handoff", ck: "Tenant onboarding (4-8 wk)" },
 ];
 
 export default function KitchenBuilt() {
@@ -43,7 +43,7 @@ export default function KitchenBuilt() {
             least.&rdquo;
           </p>
           <p className="mt-2 text-sm text-text-dim">
-            &mdash; Grant, Engineering Lead
+            - Grant, Engineering Lead
           </p>
         </motion.div>
 

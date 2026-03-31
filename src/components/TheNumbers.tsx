@@ -43,9 +43,9 @@ function AnimatedCounter({
 const metrics = [
   { target: 25, prefix: "$", suffix: "M+", label: "Commercial construction managed" },
   { target: 95, suffix: "%", label: "On-time delivery rate" },
-  { target: 3, suffix: "%", label: "CO rate (vs 8\u201312% industry)" },
+  { target: 3, suffix: "%", label: "CO rate (vs 8-12% industry)" },
   { target: 460, suffix: "%", label: "Kitchen throughput scaling" },
-  { target: 1.8, suffix: "d", label: "RFI turnaround (vs 7\u201314 industry)" },
+  { target: 1.8, suffix: "d", label: "RFI turnaround (vs 7-14 industry)" },
   { target: 155, prefix: "$", suffix: "K", label: "Change orders rejected w/ documentation" },
 ];
 

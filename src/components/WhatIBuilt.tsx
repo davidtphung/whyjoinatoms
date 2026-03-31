@@ -8,7 +8,7 @@ const cards = [
     title: "VALENCE Platform",
     link: "https://valence.davidtphung.com",
     linkText: "valence.davidtphung.com",
-    metric: "6 modules \u00B7 3,494 lines \u00B7 Live prototype",
+    metric: "6 modules / 3,494 lines / Live prototype",
     description:
       "Pre-screens plans against building codes, audits pay applications, compares bids, and tracks construction milestones. Built specifically for CloudKitchens facility delivery.",
   },
@@ -17,16 +17,16 @@ const cards = [
     title: "25-City Gap Analysis",
     link: null,
     linkText: null,
-    metric: "41.2M people \u00B7 $10.3B delivery \u00B7 Zero CK presence",
+    metric: "41.2M people / $10.3B delivery / Zero CK presence",
     description:
-      "Mapped CK\u2019s 43+ markets against top 100 metros. Identified density nodes, university clusters, and 5-year demand models for expansion planning.",
+      "Mapped CK's 43+ markets against top 100 metros. Identified density nodes, university clusters, and 5-year demand models for expansion planning.",
   },
   {
     label: "FRAMEWORK",
     title: "Bay Revenue Velocity",
     link: null,
     linkText: null,
-    metric: "BRV = 0.283 \u2192 0.354 (+25%) \u00B7 $551K\u2013$773K PM value",
+    metric: "BRV = 0.283 > 0.354 (+25%) / $551K-$773K PM value",
     description:
       "The single metric connecting construction speed to facility NOI. 35 metrics across 7 categories. Proves every day saved in buildout has a direct revenue impact.",
   },

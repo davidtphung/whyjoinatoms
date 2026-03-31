@@ -26,7 +26,7 @@ const rows = [
   {
     need: "High agency, self-starter",
     have: "Built platform, analysis & framework before applying",
-    proof: "VALENCE, 25-city analysis, BRV metric \u2014 all unprompted",
+    proof: "VALENCE, 25-city analysis, BRV metric - all unprompted",
   },
   {
     need: "Data-driven decision making",
@@ -40,7 +40,7 @@ const rows = [
   },
   {
     need: "Speed & parallel execution",
-    have: "1.8-day RFI turnaround (vs 7\u201314 industry)",
+    have: "1.8-day RFI turnaround (vs 7-14 industry)",
     proof: "4 simultaneous projects, 20+ consultants managed",
   },
   {

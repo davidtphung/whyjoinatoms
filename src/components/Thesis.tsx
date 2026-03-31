@@ -30,7 +30,7 @@ export default function Thesis() {
           className="space-y-6"
         >
           <p className="text-text-secondary leading-relaxed">
-            A CloudKitchens facility isn&apos;t a building &mdash; it&apos;s a
+            A CloudKitchens facility isn&apos;t a building - it&apos;s a
             revenue platform. Each bay is an atomic unit: 3 items per bay,
             $6,600/month rent, delivery-only.
           </p>
@@ -38,7 +38,7 @@ export default function Thesis() {
             The PM who understands this doesn&apos;t optimize for construction
             milestones. They optimize for{" "}
             <span className="text-text-accent">time-to-revenue</span>. Every
-            day a bay sits empty during buildout is $220 in lost rent &mdash;
+            day a bay sits empty during buildout is $220 in lost rent -
             across 30 bays, that&apos;s $6,600/day.
           </p>
           <p className="text-text-secondary leading-relaxed">

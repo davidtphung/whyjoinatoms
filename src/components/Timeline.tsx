@@ -4,30 +4,30 @@ import { motion } from "framer-motion";
 
 const entries = [
   {
-    years: "2017\u20132022",
+    years: "2017-2022",
     company: "Gruen Associates",
     role: "Architectural Designer / Project Manager",
     proof:
       "4 simultaneous projects, $25M+. Luxury retail TI (Louis Vuitton, Balenciaga), government infrastructure, restaurant kitchens. Managed 20+ consultants, 4 GCs.",
   },
   {
-    years: "2022\u20132023",
+    years: "2022-2023",
     company: "Entertainment Partners",
     role: "Product Owner",
     proof:
       "1M users, 99.98% uptime, 12 APIs consolidated into unified platform. Led cross-functional team through full product lifecycle.",
   },
   {
-    years: "2023\u20132025",
+    years: "2023-2025",
     company: "Happy Friday Coffee",
     role: "Founding Team",
     proof:
-      "Built commercial kitchen from ground up. Scaled 250\u21921,400 cups/week. Energy audit: 65% energy reduction. Full operations management.",
+      "Built commercial kitchen from ground up. Scaled 250 to 1,400 cups/week. Energy audit: 65% energy reduction. Full operations management.",
   },
   {
-    years: "2023\u2013Present",
+    years: "2023-Present",
     company: "Advisory",
-    role: "Owner\u2019s Representative",
+    role: "Owner's Representative",
     proof:
       "7-region portfolio. 40+ stakeholders. Multi-market capital planning. Construction oversight and vendor coordination.",
   },
