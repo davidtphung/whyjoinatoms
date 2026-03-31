@@ -77,8 +77,7 @@ export default function ForTheTeam() {
           className="space-y-1"
         >
           <p className="text-sm text-text-dim">
-            David T Phung &middot; B.Arch &middot; NLT143 &middot; Los Angeles,
-            CA
+            David T Phung &middot; Los Angeles, CA
           </p>
           <p className="text-sm text-text-dim">davidtphung@nlt143.energy</p>
         </motion.div>

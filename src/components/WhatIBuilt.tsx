@@ -15,8 +15,8 @@ const cards = [
   {
     label: "RESEARCH",
     title: "25-City Gap Analysis",
-    link: null,
-    linkText: null,
+    link: "https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vT6S5UcVf5fzakV0YieWEiyALDRXB-XbAVlsFRyp2m_aZVY1rDRiSZJKrPtXdGUNA/pubhtml",
+    linkText: "View Analysis",
     metric: "41.2M people / $10.3B delivery / Zero CK presence",
     description:
       "Mapped CK's 43+ markets against top 100 metros. Identified density nodes, university clusters, and 5-year demand models for expansion planning.",
@@ -24,8 +24,8 @@ const cards = [
   {
     label: "FRAMEWORK",
     title: "Bay Revenue Velocity",
-    link: null,
-    linkText: null,
+    link: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRFpzbnakwLmifjWkl6gWXfT-V4l9MqKYlYcOjUW4oVvAfg9uUKSDljmRHF0ZWcvA/pubhtml",
+    linkText: "View Framework",
     metric: "BRV = 0.283 > 0.354 (+25%) / $551K-$773K PM value",
     description:
       "The single metric connecting construction speed to facility NOI. 35 metrics across 7 categories. Proves every day saved in buildout has a direct revenue impact.",

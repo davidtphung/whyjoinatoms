@@ -66,7 +66,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 1.6 }}
           className="text-sm text-text-dim/60"
         >
-          David T Phung &middot; B.Arch &middot; Construction PM
+          David T Phung &middot; Construction PM
         </motion.p>
       </div>
 
