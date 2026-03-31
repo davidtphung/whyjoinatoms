@@ -31,6 +31,21 @@ export const metadata: Metadata = {
       "The Construction PM at the intersection of creative problem solving and data-driven process. Built the platform, ran the analysis, created the metric.",
     url: "https://whyjoinatoms.davidtphung.com",
     type: "website",
+    images: [
+      {
+        url: "https://whyjoinatoms.davidtphung.com/poster-day-one.png",
+        width: 1280,
+        height: 720,
+        alt: "ATOMS — Day One. David T Phung for Construction PM.",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "I Think in Blueprints. I Decide in Data. | David T Phung for ATOMS",
+    description:
+      "The Construction PM at the intersection of creative problem solving and data-driven process.",
+    images: ["https://whyjoinatoms.davidtphung.com/poster-day-one.png"],
   },
 };
 
