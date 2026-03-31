@@ -44,13 +44,13 @@ export default function Thesis() {
               CREATIVE PROBLEM SOLVING
             </p>
             <p className="text-text-secondary leading-relaxed mb-3">
-              B.Arch trained. I think spatially - how MEP systems interact,
+              B.Arch trained. I think spatially: how MEP systems interact,
               how construction sequences compress timelines, how design
               decisions upstream eliminate change orders downstream.
             </p>
             <p className="text-text-secondary leading-relaxed">
               I built a commercial kitchen from the ground up. I don&apos;t
-              just read drawings - I&apos;ve stood in the space while the
+              just read drawings. I&apos;ve stood in the space while the
               hoods were lifted into place.
             </p>
           </motion.div>
@@ -70,12 +70,12 @@ export default function Thesis() {
               ANALYTICAL DATA-DRIVEN PROCESS
             </p>
             <p className="text-text-secondary leading-relaxed mb-3">
-              I built Bay Revenue Velocity - a 35-metric framework that
+              I built Bay Revenue Velocity, a 35-metric framework that
               connects construction speed directly to facility NOI. I mapped
               25 cities. I modeled $10.3B in delivery TAM.
             </p>
             <p className="text-text-secondary leading-relaxed">
-              Then I built VALENCE - a 6-module platform that pre-screens
+              Then I built VALENCE, a 6-module platform that pre-screens
               plans against codes, audits pay apps, and tracks every
               metric that matters.
             </p>

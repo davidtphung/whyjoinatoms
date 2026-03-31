@@ -26,7 +26,7 @@ const rows = [
   {
     need: "High agency, self-starter",
     have: "Built platform, analysis & framework before applying",
-    proof: "VALENCE, 25-city analysis, BRV metric - all unprompted",
+    proof: "VALENCE, 25-city analysis, BRV metric. All unprompted.",
   },
   {
     need: "Data-driven decision making",
