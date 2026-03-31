@@ -71,7 +71,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Film grain overlay — art deco cinematic texture */
+/* Film grain overlay - art deco cinematic texture */
 body::after {
   content: '';
   position: fixed;
@@ -91,7 +91,7 @@ body::after {
   color: #F0F0F0;
 }
 
-/* Art deco ornament divider — used as a decorative element */
+/* Art deco ornament divider - used as a decorative element */
 .deco-line {
   display: flex;
   align-items: center;

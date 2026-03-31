@@ -52,7 +52,7 @@ const metrics = [
 export default function TheNumbers() {
   return (
     <section className="relative py-[120px] md:py-[160px] px-6 overflow-hidden">
-      {/* American Dynamism poster — very dark overlay so it reads as data backdrop */}
+      {/* American Dynamism poster - very dark overlay so it reads as data backdrop */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url('/poster-american-dynamism.png')" }}

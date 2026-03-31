@@ -17,7 +17,7 @@ export default function Hero() {
         <source src="/hero-video.mp4" type="video/mp4" />
       </video>
 
-      {/* Cinematic gradient — darker at edges, luminous at center-bottom */}
+      {/* Cinematic gradient - darker at edges, luminous at center-bottom */}
       <div className="absolute inset-0 bg-gradient-to-b from-[rgba(5,5,5,0.55)] via-[rgba(5,5,5,0.35)] to-[rgba(5,5,5,0.97)]" />
       <div className="absolute inset-0 bg-gradient-to-r from-[rgba(5,5,5,0.4)] via-transparent to-[rgba(5,5,5,0.4)]" />
 

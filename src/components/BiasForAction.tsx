@@ -34,22 +34,6 @@ export default function BiasForAction() {
   return (
     <section className="py-[120px] md:py-[160px] px-6 bg-bg-card">
       <div className="max-w-[1200px] mx-auto">
-        <motion.blockquote
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-          className="mb-16"
-        >
-          <p className="font-[family-name:var(--font-instrument-serif)] text-xl md:text-2xl text-text-primary italic leading-relaxed max-w-3xl">
-            &ldquo;You want a bias for action. You see the best people, they
-            just start doing things. They don&apos;t wait for permission.&rdquo;
-          </p>
-          <footer className="mt-4 text-sm text-text-dim">
-            - Tony Xu, CEO of DoorDash
-          </footer>
-        </motion.blockquote>
-
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -115,13 +99,7 @@ export default function BiasForAction() {
           }}
           className="mt-16 border border-border-default rounded-lg p-8 md:p-10"
         >
-          <p className="font-[family-name:var(--font-instrument-serif)] text-lg md:text-xl text-text-primary italic leading-relaxed">
-            &ldquo;High agency is THE thing. Captains of their own ships.&rdquo;
-          </p>
-          <footer className="mt-3 text-sm text-text-dim">
-            - Grant, Engineering Lead
-          </footer>
-          <p className="mt-6 text-text-secondary text-base">
+          <p className="text-text-secondary text-base">
             The best way to show how I&apos;d operate is to just start
             operating.
           </p>

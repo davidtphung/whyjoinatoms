@@ -8,7 +8,7 @@ export default function CinematicPoster() {
     <section className="relative h-[65vh] md:h-[75vh] overflow-hidden">
       <Image
         src="/poster-day-one.png"
-        alt="ATOMS — Day One"
+        alt="ATOMS - Day One"
         fill
         className="object-cover object-center"
       />
