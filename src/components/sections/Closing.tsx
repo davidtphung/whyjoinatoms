@@ -50,7 +50,7 @@ export default function Closing() {
         >
           <p className="text-base text-text-primary font-medium">{closing.name}</p>
           <p className="text-sm text-gold">
-            {closing.email} / {closing.phone}
+            {closing.email}
           </p>
         </motion.div>
       </div>

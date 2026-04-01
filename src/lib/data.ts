@@ -113,5 +113,4 @@ export const closing = {
   line2: "CloudKitchens is the place where all three converge.",
   name: "David T Phung",
   email: "davidtphung@nlt143.energy",
-  phone: "(760) 408-9325",
 };
