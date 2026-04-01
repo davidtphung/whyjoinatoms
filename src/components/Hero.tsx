@@ -28,7 +28,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-xs md:text-sm tracking-[6px] uppercase text-gold mb-10 font-bold"
+          className="text-base md:text-lg tracking-[6px] uppercase text-gold mb-10 font-bold"
         >
           ATOMS &nbsp;/&nbsp; CLOUDKITCHENS
         </motion.p>
