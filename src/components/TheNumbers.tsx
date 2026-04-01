@@ -57,7 +57,7 @@ export default function TheNumbers() {
       {/* American Dynamism poster - very dark overlay so it reads as data backdrop */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/poster-physical-dynamism.png')" }}
+        style={{ backgroundImage: "url('/poster-physical-dynamism.jpg')" }}
       />
       <div className="absolute inset-0 bg-[rgba(5,5,5,0.88)]" />
 

@@ -7,7 +7,7 @@ export default function PhysicalDynamism() {
   return (
     <section className="relative h-[55vh] md:h-[65vh] overflow-hidden">
       <Image
-        src="/poster-physical-dynamism.png"
+        src="/poster-physical-dynamism.jpg"
         alt="Physical Dynamism"
         fill
         className="object-cover object-top"

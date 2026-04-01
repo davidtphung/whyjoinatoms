@@ -5,23 +5,22 @@ import { motion } from "framer-motion";
 export default function Hero() {
   return (
     <section className="relative h-screen w-full overflow-hidden flex items-center justify-center">
-      {/* Cinematic poster background - Grok holographic data overlay */}
+      {/* Cinematic poster background */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url('/poster-data-overlay.png')" }}
       />
 
-      {/* Cinematic gradient - darker at edges, luminous at center-bottom */}
+      {/* Gradient overlays */}
       <div className="absolute inset-0 bg-gradient-to-b from-[rgba(5,5,5,0.55)] via-[rgba(5,5,5,0.35)] to-[rgba(5,5,5,0.97)]" />
       <div className="absolute inset-0 bg-gradient-to-r from-[rgba(5,5,5,0.4)] via-transparent to-[rgba(5,5,5,0.4)]" />
 
-      {/* Art deco corner accents */}
-      <div className="absolute top-8 left-8 w-14 h-14 border-t border-l border-gold/35 pointer-events-none" />
-      <div className="absolute top-8 right-8 w-14 h-14 border-t border-r border-gold/35 pointer-events-none" />
-      <div className="absolute bottom-16 left-8 w-14 h-14 border-b border-l border-gold/35 pointer-events-none" />
-      <div className="absolute bottom-16 right-8 w-14 h-14 border-b border-r border-gold/35 pointer-events-none" />
+      {/* Art deco corner accents - hidden on mobile */}
+      <div className="hidden md:block absolute top-8 left-8 w-14 h-14 border-t border-l border-gold/35 pointer-events-none" />
+      <div className="hidden md:block absolute top-8 right-8 w-14 h-14 border-t border-r border-gold/35 pointer-events-none" />
+      <div className="hidden md:block absolute bottom-16 left-8 w-14 h-14 border-b border-l border-gold/35 pointer-events-none" />
+      <div className="hidden md:block absolute bottom-16 right-8 w-14 h-14 border-b border-r border-gold/35 pointer-events-none" />
 
-      {/* Top edge film strip accent */}
       <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-gold/30 to-transparent pointer-events-none" />
 
       <div className="relative z-10 text-center px-6 max-w-4xl">
@@ -70,19 +69,10 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 1.4 }}
-          className="text-base md:text-lg text-text-secondary mb-4 max-w-xl mx-auto"
+          className="text-base md:text-lg text-text-primary/80 max-w-xl mx-auto"
         >
           The Construction PM at the intersection of
           design thinking and revenue engineering.
-        </motion.p>
-
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.6, delay: 1.6 }}
-          className="text-xs tracking-[3px] uppercase text-text-dim/60"
-        >
-          David T Phung &nbsp;&middot;&nbsp; Construction PM
         </motion.p>
       </div>
 
