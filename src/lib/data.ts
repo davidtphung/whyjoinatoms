@@ -1,7 +1,7 @@
 export const hero = {
   name: "DAVID T PHUNG",
   title: "Construction Project Manager",
-  subtitle: "7 years commercial delivery. Kitchen MEP specialist. B.Arch.",
+  subtitle: "Trained in the field of Architecture and Construction.",
   location: "Los Angeles. Ready now.",
 };
 
