@@ -9,7 +9,7 @@ export const story = {
   paragraphs: [
     {
       id: "architecture",
-      text: "I trained as an architect. A Bachelor of Architecture taught me to think in plans, sections, and building systems, how structures work from the inside out. That foundation is why I read MEP drawings fluently and catch constructability issues before they become change orders.",
+      text: "Trained in the field of Architecture and Construction. A Bachelor of Architecture taught me to think in plans, sections, and building systems, how structures work from the inside out. That foundation is why I read MEP drawings fluently and catch constructability issues before they become change orders.",
     },
     {
       id: "gruen",
